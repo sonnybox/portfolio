@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dynamic-margin: calc(100vw - 1.5rem);
+    --end-margin: calc(1280px - 1.5rem);
+}
+
+@layer components {
+    .child-center {
+        @apply flex items-center justify-center;
+    }
+}
+
+h1 {
+    @apply text-4xl font-bold;
+}
+
+h2 {
+    @apply text-xl font-bold;
+}
+
+body {
+    font-family: var(--main), var(--icon), sans-serif;
+}
