@@ -84,7 +84,7 @@ export default function ProjectContainer() {
 
     return (
         <>
-            <div className='flex flex-row gap-4 p-4 mt-4 border border-white rounded-3xl group'>
+            <div className='flex flex-row flex-wrap max-w-[90vw] justify-center gap-4 p-4 mt-4 border border-white rounded-3xl group'>
                 {items.map((item, index) => (
                     <ProjectItem
                         key={index}
